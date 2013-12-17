@@ -1,2 +1,10 @@
 apply plugin: 'java'
 
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
+}
+
