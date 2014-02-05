@@ -1,6 +1,8 @@
 package io.vodoo.core
 
 
-public interface Runner {
-    void executeTask()
+public abstract class Runner {
+    protected config
+
+    abstract void executeTask()
 }
